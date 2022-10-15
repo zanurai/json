@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup apps</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="pop">
+                <div class="todo">
+                    <h3>Todo List</h3>
+                </div>
+                <div class="button">
+                    <input type="search" id="searchbox" placeholder="search">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="pop2">
+                <div class="todo2">
+                    <h1>Welcome in Todo List Application</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="poppu">
+        <div class="container">
+            <div class="pop3">
+                <div class="todo3">
+                    <input type="text" id="text" placeholder="Enter your task"></input>
+                    <input type="hidden" id="saveindex">
+                    <button type="task" class="task" id="tasks">Add Task</button>
+                    <button type="task" class="task" id="savetask" style="display:none;">Save Task</button>
+                    <button type="delete" class="delete" id="deletes">Delete All</button>
+                </div>
+            </div>
+            <div id="POP">
+                <tr>
+                    <th scope="row">1</th>
+                    <td id="items">
+                        Dummy Task
+                    </td>
+                    <td><button type="button" class="text-primary">
+                            <i class="fa fa-edit" id="edit">Edit</i></button></td>
+                    <td><button type="button" class="text-danger">
+                            <i class="fa fa-trash">Delete</i></button></td>
+
+                </tr>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+    <script src=" myscript.js "></script>
+</body>
+
+</html>
